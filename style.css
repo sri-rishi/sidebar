@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+}
+
+.sidebar {
+    height: 0;
+    display: none;
+}
+
+.sidebar-toggle {
+    position: fixed;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.barShown {
+    position: absolute;
+    background-color: yellow;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
