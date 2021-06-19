@@ -10,7 +10,7 @@ body {
 a {
     text-decoration: none;
 }
-h1 {
+h1, ul {
     margin-block-end: 0;
     margin-block-start: 0;
 }
@@ -26,11 +26,17 @@ ul {
     outline: none;
     color: rgb(126, 5, 5);
     font-size: 2rem;
+    padding-top: 9px;
+    
+}
+
+.close-btn:hover{
+    transform: rotate3d(360deg);
 }
 .title {
     font-size: 1.8rem;
     font-weight: 900;
-    text-shadow: 1px 3px 4px rgb(73, 66, 66);
+    text-shadow: 1px 3px 4px rgb(133, 70, 70);
     letter-spacing: 3px;
 }
 
@@ -54,22 +60,39 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 20px;
 }
 
 .barShown {
     position: absolute;
     display: grid;
     background: white;
-    grid-template-rows: 1fr 4fr 1fr;
+    grid-template-rows: 1fr 8fr 1fr;
+    row-gap: 1rem;
     height: 100%;
     width: 100%;
 }
 
-.tab-a {
-    color: rgb(114, 111, 111);
+.tab-items {
+    font-size: 1.4rem;
+    padding: 20px;
 }
 
-.tab-items  {
-    padding: 15px auto;
-    font-size: 1.5rem;
+.tab-a {
+    color: rgb(89, 114, 143);
 }
+
+.social-links {
+    margin: auto;
+    text-align: center;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+
+.social-links .fab {
+    color: rgb(89, 114, 143);
+    font-size: 1.7rem;
+}
+
