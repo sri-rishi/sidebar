@@ -115,8 +115,15 @@ ul {
 }
 
 
+@media (min-width: 648px) {
+    .barShown{
+        width: 50%;
+    }
+}
+
 @media (min-width: 980px) {
     .barShown {
         width: 30%;
     }
 }
+
