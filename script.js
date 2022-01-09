@@ -1,6 +1,6 @@
-let btnSidebar = document.querySelector(".sidebar-toggle");
-let sidebarBox = document.querySelector(".sidebar");
-let closeBtn = document.querySelector(".close-btn")
+const btnSidebar = document.querySelector(".sidebar-toggle");
+const sidebarBox = document.querySelector(".sidebar");
+const closeBtn = document.querySelector(".close-btn")
 
 
 btnSidebar.addEventListener("click", () => {
